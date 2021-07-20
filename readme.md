@@ -1,22 +1,24 @@
 # Feature Matching and Position Matching between Optical and SAR with Local Deep Feature Descriptor
 
 
-'''
+
 Using Deeplearning to locate the Synthetic Aperture Radar(SAR) images to the counterpart of Optical images.
-'''
+
 
 Model backbone: CSP + Dense Block CNN
 Loss: Arc loss and l2 loss
 
+
+
 Demo:
-'''
+
 run:
 python location_demo.py
 
 image pairs in 'test_image' will be loaded into model and predict the location of SAR images in optical images.
 The matching results will save as images.
 
-'''
+
 
 # Chinese
 利用CSP Block 和 Dense Block 搭建的CNN网络实现对光学图像和合成孔径雷达图像的位置匹配。
