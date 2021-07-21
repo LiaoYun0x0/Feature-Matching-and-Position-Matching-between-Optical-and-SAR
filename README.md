@@ -35,9 +35,13 @@ python location_demo.py
 
 
 ## Requirement：
-python >= 3.6;
-pytorch >= 1.0;
-opencv ;
-torchvision;
+python >= 3.6
+
+pytorch >= 1.0
+
+opencv 
+
+torchvision
+
 tqdm
 
