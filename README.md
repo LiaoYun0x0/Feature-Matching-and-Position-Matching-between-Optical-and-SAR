@@ -20,7 +20,7 @@ The matching results will save as images.
 
 
 
-# Chinese
+## Chinese
 利用CSP Block 和 Dense Block 搭建的CNN网络实现对光学图像和合成孔径雷达图像的位置匹配。
 
 通过使用模型提取的图像关键点特征描述子进行异源图像匹配
@@ -31,3 +31,13 @@ python location_demo.py
 
 ![image](https://github.com/LiaoYun0x0/Feature-Matching-and-Position-Matching-between-Optical-and-SAR/blob/main/1_1.00_1_kset.png)
 ![image](https://github.com/LiaoYun0x0/Feature-Matching-and-Position-Matching-between-Optical-and-SAR/blob/main/1_1.00_1_kset_circle.png)
+
+
+
+## Requirement：
+python >= 3.6
+pytorch >= 1.0
+opencv 
+torchvision
+tqdm
+
